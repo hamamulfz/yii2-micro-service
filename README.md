@@ -31,7 +31,7 @@ USAGE
 2. Edit file /console/config/main.php for DB connection
 3. Run migration
     ```
-    ./yii migration
+    ./yii migrate
     ```
 4. Create RBAC table
     ```
@@ -48,6 +48,10 @@ You can run it from the micro-app/ directory via:
 ```
 ./yii serve --docroot=./web
 
+```
+if prettyurl is not enable, you can access from following link i.e to v1/test
+```
+yourhost/yii2-microservice/web/index.php?r=v1/user/login
 ```
 
 CREATING MODEL WITH GII CONSOLE
